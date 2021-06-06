@@ -25,9 +25,10 @@ HTTPS PROXY SERVER
         * sendToClient()
             If data is not an image, HTTP connection to this URL is created.
             Program retrieves a URL Connection, gets an input stream from the connection
-	    and reads from a stream.
+	        and reads from a stream.
             The program writes the required information to a client by the output stream,
-            flushes the output stream forcing any buffered output bytes to be written out and closes the stream.
+            flushes the output stream forcing any buffered output bytes to be written out
+	        and closes the stream.
             If data is an image (verified by URL extension) data is written to a client by BufferedImage -
             BufferedImage represents image data that is present in memory.
 
