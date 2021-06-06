@@ -20,7 +20,8 @@ HTTPS PROXY SERVER
 
         * run()
             Newly created BufferReader reads data (request) from the client.
-            To obtain string URL - request is parsed (request type and everything after the next space is removed).
+            To obtain string URL - request is parsed
+	        (request type and everything after the next space is removed).
 
         * sendToClient()
             If data is not an image, HTTP connection to this URL is created.
